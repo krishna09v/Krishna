@@ -6,9 +6,9 @@ public class MyTestClass {
 		
 		System.out.println("This is a test class");
 		
-		String[] names = {"Ram","Mahesh","Jai","Shabeena","Sai Kumar","Sapneel"};
+		String[] names = {"Ram","Mahesh","Jai","Shabeena","Sai Kumar","Sapneel","Bindu","Vinoth"};
 		
-		//Print greetings
+		//Print greetings to my office flocks
 		for(int i=0; i<names.length; i++){
 			System.out.format("Hai %s!\n", names[i]);
 		}
