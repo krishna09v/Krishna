@@ -9,8 +9,9 @@ public class MyTestClass {
 		String[] names = {"Ram","Mahesh","Jai","Shabeena","Sai Kumar","Sapneel"};
 		
 		//Print greetings
-		for(int i=0; i<names.length; i++){
-			System.out.format("Hai %s!\n", names[i]);
+		for(String name: names){
+			System.out.format("Hai %s!\n", name);
+			System.out.println("How are doing today");
 		}
 	}
 
